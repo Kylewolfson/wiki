@@ -15,12 +15,20 @@
 .grey-bg {
   background-color: grey;
 }
+.purple-bg {
+  background-color: purple;
+}
 .vcenter {
     display: inline-block;
     vertical-align: middle;
     float: none;
 }
 .jumbotron {
-  background-color: grey;
+  background-color: inherit;
+}
+
+h2 {
+  line-height: .9;
+  margin-top: 0px;
 }
 /*foo*/
