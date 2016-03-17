@@ -1,0 +1,26 @@
+/*To set fixed left column, floating right*/
+.row > div {
+  float:left; /* Can apply this a bunch of ways */
+}
+.fixed-side-column {
+  border-right: solid cyan;
+  width:160px;
+}
+.fluid-body {
+  width:calc(100% - 160px);
+}
+.row {
+  margin: 5px;
+}
+.grey-bg {
+  background-color: grey;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.jumbotron {
+  background-color: grey;
+}
+/*foo*/
